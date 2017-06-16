@@ -20,5 +20,7 @@ public:
     string getContrasena();
     void setContrasena(string);
 
+    virtual void mostrar();
+
 };
 #endif

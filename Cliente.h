@@ -17,5 +17,7 @@ public:
 	string getMembresia();
 	void setMembresia(string);
 
+	void mostrar();
+
 };
 #endif

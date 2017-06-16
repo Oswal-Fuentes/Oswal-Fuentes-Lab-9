@@ -13,8 +13,9 @@ protected:
     string modelo;
     int anio;
     int precio;
+    string estado;
 public:
-    Vehiculo(string,string,string,int,int);
+    Vehiculo(string,string,string,int,int,string);
     Vehiculo();
 
     string getPlaca();
@@ -32,5 +33,9 @@ public:
     int getPrecio();
     void setPrecio(int);
 
+    string getEstado();
+    void setEstado(string);  
+
+    virtual void mostrar();  
 };
 #endif

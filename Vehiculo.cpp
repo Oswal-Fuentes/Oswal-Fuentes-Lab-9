@@ -1,11 +1,13 @@
 #include "Vehiculo.h"
 
-Vehiculo::Vehiculo(string placa,string marca,string modelo,int anio,int precio){
+Vehiculo::Vehiculo(string placa,string marca,string modelo,int anio,int precio,string estado){
   this->placa=placa;
   this->marca=marca;
   this->modelo=modelo;
   this->anio=anio;
   this->precio=precio;
+  this->estado=estado;
+
 }
 Vehiculo::Vehiculo(){
 
@@ -39,4 +41,20 @@ void Vehiculo::setPrecio(int precio){
 }
 int Vehiculo::getPrecio(){
  return precio;
+}
+void Vehiculo::setEstado(string estado){
+ this-> precio=precio;
+}  
+string Vehiculo::getEstado(){
+  return estado;
+}
+
+void Vehiculo::mostrar(){
+  cout<<"Placa: "<<placa<<endl;
+  cout<<"Marca: "<<marca<<endl;
+  cout<<"Modelo: "<<modelo<<endl;
+  cout<<"Año: "<<anio<<endl;
+  cout<<"Precio: "<<precio<<endl;
+  cout<<"Estado: "<<estado<<endl;
+
 }

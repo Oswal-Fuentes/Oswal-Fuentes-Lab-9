@@ -14,3 +14,8 @@ void Cliente::setMembresia(string membresia){
 string Cliente::getMembresia(){
 	return membresia;
 }
+void Cliente::mostrar(){
+	cout<<"Cliente"<<endl;
+	Usuario::mostrar();
+	cout<<"Membresia: "<<membresia<<endl;
+}

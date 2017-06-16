@@ -21,5 +21,7 @@ public:
     string getNum_seguro_social();
     void setNum_seguro_social(string);
 
+    void mostrar();
+
 };
 #endif

@@ -19,3 +19,7 @@ void Usuario::setContrasena(string contrasena){
 string Usuario::getContrasena(){
    return contrasena;
 }
+void Usuario::mostrar(){
+	cout<<"Username: "<<username<<endl;
+	cout<<"Contraseña: "<<contrasena<<endl;
+}
