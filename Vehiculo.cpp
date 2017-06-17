@@ -43,7 +43,7 @@ int Vehiculo::getPrecio(){
  return precio;
 }
 void Vehiculo::setEstado(string estado){
- this-> precio=precio;
+ this-> estado=estado;
 }  
 string Vehiculo::getEstado(){
   return estado;
